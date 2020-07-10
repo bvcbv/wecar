@@ -1,0 +1,6 @@
+<?xml version = "1.0"?>
+<launch>
+    <node name = "kunsan" pkg = "ros_name" type="talker.py" output="screen"></node>
+
+    <node name = "jinseok" pkg = "rplidar_ros" type="rplidar_data.py" output="screen"></node>
+</launch>

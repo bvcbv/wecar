@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg="turtlesim_control" type="turtlesim_position.py" name="turtlesim_position"  />
+
+    <!-- visualistion with rqt -->
+    <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui"/>
+
+</launch>
